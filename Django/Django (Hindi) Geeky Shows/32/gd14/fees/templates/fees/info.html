@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'fees/css/style.css' %}">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <h1>Welcome to {{Name}}</h1>
+    <p>From app</p>
+    <img src="{% static 'fees/images/love1.jpg' %}" alt="Love">
+    <p>From root</p>
+    <img src="{% static 'images/ramiza.jpg' %}" alt="Love">
+
+
+
+    <form action="" method="get">
+        <button type="submit" onclick="{disp()}">CLICK ME</button>
+    </form>
+
+
+    <script src="{% static 'fees/js/script.js'%}"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td {
+            border: 1px solid;
+          }
+    </style>
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Students</h1>
+    <p>Using Get</p>
+    {% if oneStudent %}
+    {{oneStudent.stuId}}<br>
+    {{oneStudent.stuName}}<br>
+    {{oneStudent.stuEmail}}<br>
+    {{oneStudent.stuPassword}}<br>
+    {{oneStudent.stucomments}}<br>
+    {% else %}
+    <p>No data</p>
+    {% endif %}
+
+    <hr>
+    {% if stu %}
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Comment</th>
+        </tr>
+
+        {% for st in stu %}
+        <tr>
+            <td>{{st.stuId}}</td>
+            <td>{{st.stuName}}</td>
+            <td>{{st.stuEmail}}</td>
+            <td>{{st.stuPassword}}</td>
+            <td>{{st.comments}}</td>
+        </tr>
+        {% endfor %}
+
+
+    </table>
+    {% else %}
+    {% endif %}
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+    </head>
+
+    <body>
+        <form action="" method="get">
+
+            <table>
+                {{ form}}
+            </table>
+            <hr>
+            <p>Table</p>
+            {{ form.as_table}}
+            <hr>
+            <p>As p</p>
+            {{ form.as_p}}
+
+            <hr>
+            <p>Ul</p>
+            {{ form.as_ul}}
+            <hr>
+            <p>.Attribute</p>
+            <p>Name:</p>
+            {{ form.name}}
+            <p>Email:</p>
+            {{ form.email}}
+            <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </body>
+
+    </html>

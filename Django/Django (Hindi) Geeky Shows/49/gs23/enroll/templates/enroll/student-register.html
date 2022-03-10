@@ -1,0 +1,46 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+    </head>
+
+    <body>
+        <form action="" method="get">
+            <div>
+                <label for="id_name">Name:</label>
+                <input type="text" name="name" id="id_name" required>
+            </div>
+            <p>Id</p>
+            <div>
+                <!-- id="id_name" -->
+                <label for="{{form.name.id_for_label}}">Name:</label>
+                <!-- <label for="id_name">Name:</label> -->
+                {{form.name.label_tag}}
+                <!-- <input type="text" name="name" id="id_name" required> -->
+                {{form.name}}
+                <!-- Name: -->
+                {{form.name.label}}
+                <!-- name="name" -->
+                {{form.name.html_name}}
+                <!-- initial='Dipu' -->
+                {{form.name.value}}
+                <!-- required=True -->
+                {{form.name.field.required}}
+                <!-- help_text='Do this please' -->
+                {{form.name.help_text}}
+            </div>
+
+
+
+
+
+
+        </form>
+
+    </body>
+
+    </html>

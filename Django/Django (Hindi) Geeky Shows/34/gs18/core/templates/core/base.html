@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block styles %}
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+    {% endblock styles %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    <navbar>
+        <ul>
+            <li>About</li>
+            <li>Home</li>
+            <li>Contact</li>
+        </ul>
+    </navbar>
+
+    {% block content %}{% endblock content %}
+    {% block content1 %}{% endblock content1 %}
+    {% block content2 %}{% endblock content2 %}
+
+    {% block default %}
+    <p>Default from Base</p>
+    {% endblock default %}
+
+    {% block new %}
+    <p>For super</p>
+    {% endblock new %}
+
+</body>
+
+</html>

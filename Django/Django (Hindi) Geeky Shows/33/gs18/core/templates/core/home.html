@@ -1,0 +1,10 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}This is Home{% endblock content %}
+
+{% block new %}
+{{block.super}}
+<p>Added to super</p>
+{% endblock new %}

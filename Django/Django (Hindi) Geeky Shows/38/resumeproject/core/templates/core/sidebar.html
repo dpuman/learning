@@ -1,0 +1,16 @@
+         {% load static %}
+         <div class="text-center">
+             <img class="img-fluid mt-5 rounded rounded-circle " src="{% static 'core/images/dipu.jpg' %}"
+                 alt="ProfilePic" height="100px" width="100px">
+         </div>
+         <div class="text-center">
+             <h3 class="st-font text-white mt-3">Dipankar Barman</h3>
+         </div>
+         <hr class="bg-warning border border-light">
+
+         <nav class="nav flex-column text-center">
+             <a class="nav-link {{home}}" href="{% url 'home' %}">Home</a>
+             <a class="nav-link {{service}}" href="{% url 'services' %}">Service</a>
+             <a class="nav-link {{skill}}" href="{% url 'skill' %}">Skill</a>
+             <a class="nav-link {{contact}}" href="{% url 'contact'%}">Contact</a>
+         </nav>

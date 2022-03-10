@@ -1,0 +1,17 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>This is Home</h1>
+{% endblock content %}
+
+{% block new %}
+{{block.super}}
+<p>Added to super</p>
+
+{% include "core/top-course.html" %}
+{% include "core/top-course.html" with p='New Course' %}
+{% include "core/top-course.html" with p='New Course' only %}
+
+{% endblock new %}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            padding: 0px 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Filters</h1>
+    {{text|upper}}
+    <br>
+    {{text|truncatewords:5}}
+    <br>
+    {{text|truncatechars:7}}
+    <br>
+    {{text|capfirst}}
+    <br>
+    {{text|length}}
+    <br>
+    {{text|lower}}
+    <br>
+    {{nothing|default:"Nothing"}}
+
+    <h1>Date Time</h1>
+    {{dt|date:"D d M Y"}}
+    <br>
+    {{dt|time:"H:i"}}
+    <br>
+
+    <p>prefix</p>
+
+    {{ dt|date:"SHORT_DATE_FORMAT" }}
+    <br>
+    {{ dt|time:"TIME_FORMAT" }}
+
+    <p>Floating point</p>
+    <p>{{f|floatformat}}</p>
+    <p>{{f1|floatformat}}</p>
+    <p>{{f2|floatformat}}</p>
+    <p>with arg :3</p>
+    <p>{{f|floatformat:3}}</p>
+    <p>{{f1|floatformat:3}}</p>
+    <p>{{f2|floatformat:3}}</p>
+    <p>with arg :0</p>
+    <p>Floating point</p>
+    <p>{{f|floatformat:'0'}}</p>
+    <p>{{f1|floatformat:'0'}}</p>
+    <p>{{f2|floatformat:'0'}}</p>
+    <p>with arg :-3</p>
+    <p>{{f|floatformat:-3}}</p>
+    <p>{{f1|floatformat:-3}}</p>
+    <p>{{f2|floatformat:-3}}</p>
+
+
+</body>
+
+</html>

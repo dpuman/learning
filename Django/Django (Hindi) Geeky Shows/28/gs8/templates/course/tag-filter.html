@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+
+<body>
+    <h1>Tags</h1>
+    {%if nm %}
+    <p>name {{nm}}</p>
+    {% endif %}
+
+    {%if nm and st %}
+    <p>name {{nm}}</p>
+    {% endif %}
+
+    {%if nm or st %}
+    <p>name {{nm}}</p>
+    {% endif %}
+
+    {%if nm or not st %}
+    <p>name {{nm}}</p>
+    {% endif %}
+
+    {%if  st == 5 %}
+    <p>number {{st}}</p>
+    {% endif %}
+    {%if  st >= 5 %}
+    <p>number {{st}}</p>
+    {% endif %}
+
+    {%if  st <= 5 %}
+    <p>number {{st}}</p>
+    {% endif %}
+
+    {%if "D" in nm %}
+    <p>{{nm}}</p>
+    {% endif %}
+
+    {%if "D" not  in nm %}
+    <p>{{nm}}</p>
+    {% endif %}
+
+    {%if check is True %}
+    <p>{{check}}</p>
+    {% endif %}
+
+    {%if check is not True %}
+    <p>{{check}}</p>
+    {% endif %}
+
+    <p>{{nm|length}}</p>
+
+    {% if nm|length >= 9 %}
+    <p>>= 9 {{nm}}</p>
+    {% elif nm|length >= 5 %}
+    <p>>= 5{{nm}}</p>
+    {% else%}
+    <p>{{nm}}</p>
+    {% endif%}
+
+
+    <h4>For</h4>
+
+    {% for em in empty%}
+    <li> {{em}}</li>
+    {%empty%}
+    <h4>EMPTY</h4>
+    {% endfor %}
+
+
+    {% for name in names%}
+    <li>{{forloop.counter}} {{name}}</li>
+    {% endfor %}
+
+    {% for name in names%}
+    <li>{{forloop.revcounter}} {{name}}</li>
+    {% endfor %}
+    {% for name in names%}
+
+
+    <li>{{forloop.first}} {{name}}</li>
+    {% endfor %}
+
+    <h3>ITEMS</h3>
+    <!-- <p>{{stu}}</p> -->
+
+    {% for s,v in stu.items%}
+    <!-- <li>{{s}}: {{v}}</li> -->
+
+    {%for n,r in v.items %}
+    <p>{{forloop.parentloop.counter}} {{n}}: {{r}}</p>
+    {% endfor%}
+    {% endfor %}
+
+</body>
+
+</html>
