@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Blogs</h1>
+
+    {% for b in blogs %}
+    <h3>{{b.title}}</h3>
+    <p>{{b.desc}}</p>
+    <small>{{b.publish_date}}</small>
+    {% endfor %}
+    <div>
+        <small>
+            {% if blogs.has_previous %}
+            <a href="?page={{blogs.previous_page_number}}">Previous</a>
+            {% endif %}
+            <span>
+                {{blogs.number}}
+            </span>
+
+            {% if blogs.has_next %}
+            <a href="?page={{blogs.next_page_number}}">Next</a>
+            {% endif %}
+        </small>
+    </div>
+</body>
+
+</html>

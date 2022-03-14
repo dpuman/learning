@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Blogs</h1>
+    {% if is_paginated %}
+
+    {% for b in page_obj %}
+    <h3>{{b.title}}</h3>
+    <p>{{b.desc|truncatechars:300}} <a href="{% url 'detail' b.id %}">Read more</a> </p>
+    <small>{{b.publish_date}}</small>
+    {% endfor %}
+    <div>
+        
+        <small>
+            {% if page_obj.has_previous %}
+            <a href="?page={{page_obj.previous_page_number}}">Previous</a>
+            {% endif %}
+            <span>
+                {{page_obj.number}} of {{page_obj.paginator.num_pages}}
+            </span>
+
+            {% if page_obj.has_next %}
+            <a href="?page={{page_obj.next_page_number}}">Next</a>
+            {% endif %}
+        </small>
+    </div>
+
+    {% else %}
+    {% for b in object_list %}
+    <h3>{{b.title}}</h3>
+    <p>{{b.desc}}</p>
+    <small>{{b.publish_date}}</small>
+    {% endfor %}
+
+    {% endif %}
+</body>
+
+</html>

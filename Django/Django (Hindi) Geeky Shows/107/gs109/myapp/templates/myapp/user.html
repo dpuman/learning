@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>User</p>
+    {% for u in users1 %}
+    {{u.username}}
+    {% endfor %}
+    <hr>
+    {% for u in users2 %}
+    {{u.username}}
+    {% endfor %}
+    <hr>
+    {% for u in users3 %}
+    {{u.username}}
+    {% endfor %}
+</body>
+
+</html>
