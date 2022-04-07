@@ -136,7 +136,7 @@ def atEndingRequest(sender, **kwargs):
 @receiver(got_request_exception)
 def atEndingRequest(sender, request, **kwargs):
     print('-'*50)
-    print('At Ending of Request')
+    print('At Exception of Request')
     print('Sender:', sender)
     print('Request:', request)
 
