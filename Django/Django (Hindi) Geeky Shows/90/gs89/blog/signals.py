@@ -6,7 +6,7 @@ from django.db.models.signals import pre_init, pre_save, pre_delete, post_init, 
 from django.core.signals import request_started, request_finished, got_request_exception
 from django.db.backends.signals import connection_created
 
-# LOG/AUTH
+# LOG/AUTH +++++++++++++++++++++++
 
 
 @receiver(user_logged_in, sender=User)
@@ -45,7 +45,7 @@ def loginFailed(sender, credentials, request, **kwargs):
 
 # user_login_failed.connect(loginFailed)
 
-# MODEL
+# MODEL +++++++++++++++++++++++++++++++++
 
 
 @receiver(pre_save, sender=User)
@@ -115,7 +115,8 @@ def afterInit(sender, *args, **kwargs):
 
 # post_init.connect(afterInit,sender=User)
 
-# Request/Response
+# Request/Response +++++++++++++++++++++
+
 @receiver(request_started)
 def atBeginningRequest(sender, environ, **kwargs):
     print('-'*50)
@@ -136,7 +137,7 @@ def atEndingRequest(sender, **kwargs):
 @receiver(got_request_exception)
 def atEndingRequest(sender, request, **kwargs):
     print('-'*50)
-    print('At Exception of Request')
+    print('At Exception of Request WHEN EXCEPTION')
     print('Sender:', sender)
     print('Request:', request)
 

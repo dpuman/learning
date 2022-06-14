@@ -7,15 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <style>
-            {% comment %} .errorlist {
+            .errorlist {
                 list-style-type: none;
                 color: red;
                 margin: 0;
                 padding: 0;
                 ;
-            } {% endcomment %}
-            .error,.required{
-                color:red;
+            }
+
+            .error,
+            .required {
+                color: red;
             }
         </style>
         <title>Registration</title>
@@ -29,40 +31,46 @@
             {{form.as_p}}
             <input type="submit" value="Submit">
         </form>
-<hr>
+
+        <hr>
         <p>Using forms.non_field_errors</p>
         <form action="" method="POST" novalidate>
             {% csrf_token %}
 
+            {{ form.non_field_errors }}
+
             {% for field in form %}
 
             <div>
-            {{field.label}}
-            {{field}}
-            <span class="errorlist">{{field.errors|striptags}}</span>
+                {{field.label}}
+                {{field}}
+                <span class="errorlist">{{field.errors|striptags}}</span>
             </div>
 
             {% endfor %}
             <input type="submit" value="Submit">
         </form>
-<hr>
+
+        <hr>
         <p>Using forms.non_field_errors with required</p>
         <form action="" method="POST" novalidate>
             {% csrf_token %}
+            {{ form.non_field_errors }}
 
             {% for field in form %}
 
             <div>
-            {{field.label}}
-            {{field}}
-            {% for error in field.errors %}
-            <span class="errorlist">{{error}}</span>{% endfor %}
+                {{field.label}}
+                {{field}}
+                {% for error in field.errors %}
+                <span class="errorlist">{{error}}</span>{% endfor %}
             </div>
 
             {% endfor %}
             <input type="submit" value="Submit">
         </form>
-<hr>
+
+        <hr>
         <p>Using error_css_class/required_css_clsss</p>
         <form action="" method="POST" novalidate>
             {% csrf_token %}

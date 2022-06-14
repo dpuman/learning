@@ -20,14 +20,20 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
     # path('', views.TemplateView.as_view(
     #     template_name="myapp/home.html"), name='home'),
+
     # path('home/', views.TemplateView.as_view(
     #     template_name="myapp/home.html"), name='home'),
+
     path('', views.MyView.as_view(), name='home'),
+
     path('home/', views.MyViewHome.as_view(), name='home'),
+
     path('excontex/',
          views.MyViewHome.as_view(extra_context={'course': 'Django'}), name='home'),
+
     path('excontex/<str:course>',
          views.MyViewHome.as_view(), name='home'),
 

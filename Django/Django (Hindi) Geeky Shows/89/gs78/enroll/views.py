@@ -4,6 +4,8 @@ from django.core.cache import cache
 # Create your views here.
 
 # General
+
+
 # def home(request):
 #     cv = cache.get('name', 'No value Set')
 #     if cv == 'No value Set':
@@ -14,10 +16,10 @@ from django.core.cache import cache
 # Shortcut
 
 
-def home(request):
-    mv = cache.get_or_set('Movie', 'Gurray', 30)
-    mv2 = cache.get_or_set('Movie', 'Titanic', 30, version=2)
-    return render(request, 'enroll/home.html', {'name': mv, 'mv2': mv2})
+# def home(request):
+#     mv = cache.get_or_set('Movie', 'Gurray', 30)
+#     mv2 = cache.get_or_set('Movie', 'Titanic ', 30, version=2)
+#     return render(request, 'enroll/home.html', {'name': mv, 'mv2': mv2})
 
 
 # SET/GET MANY
@@ -38,12 +40,12 @@ def home(request):
 
 
 # INC/DIC
-# def home(request):
-#     # cache.set('value', 100, 40)
-#     # cache.decr('value', delta=2)
-#     cache.incr('value', delta=2)
-#     rv = cache.get('value')
-#     return render(request, 'enroll/home.html', {'data': rv})
+def home(request):
+    # cache.set('value', 100, 40)
+    cache.decr('value', delta=2)
+    # cache.incr('value', delta=2)
+    rv = cache.get('value')
+    return render(request, 'enroll/home.html', {'data': rv})
 
 # clear all
 # def home(request):

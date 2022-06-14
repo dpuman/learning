@@ -5,7 +5,7 @@ from django.forms import ModelForm
 from .models import employee
 
 
-class StudentRegistration(ModelForm):
+class EmployeeRegistration(ModelForm):
     # Extra Validation
     name = forms.CharField(max_length=76, required=False)
 

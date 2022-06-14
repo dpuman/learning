@@ -11,6 +11,7 @@
 <body>
     <h1>Blogs</h1>
     {% if is_paginated %}
+    <!--checks if paginated -->
 
     {% for b in page_obj %}
     <h3>{{b.title}}</h3>
@@ -18,7 +19,7 @@
     <small>{{b.publish_date}}</small>
     {% endfor %}
     <div>
-        
+
         <small>
             {% if page_obj.has_previous %}
             <a href="?page={{page_obj.previous_page_number}}">Previous</a>
@@ -34,6 +35,7 @@
     </div>
 
     {% else %}
+    <!-- if not paginated -->
     {% for b in object_list %}
     <h3>{{b.title}}</h3>
     <p>{{b.desc}}</p>

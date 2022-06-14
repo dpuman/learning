@@ -5,7 +5,7 @@ from .models import Student
 
 
 def home(request):
-    # student_data = Student.objects.get(pk=1)
+    student_data = Student.objects.get(pk=1)
 
     # student_data = Student.objects.first()
     # student_data = Student.objects.order_by('name').first()
@@ -61,8 +61,8 @@ def home(request):
     # student_data = Student.objects.get(pk=8).delete()
     # student_data = Student.objects.filter(marks=90).delete()
 
-    student_data=Student.objects.all()
-    print(student_data.count())
+    # student_data = Student.objects.all()
+    # print(student_data.count())
 
     print('Result: ', student_data)
 

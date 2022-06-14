@@ -5,15 +5,15 @@ from django.forms import ModelForm
 from .models import Employee, Teacher
 
 
-class StudentRegistration(ModelForm):
-    # Extra Validation
-    name = forms.CharField(max_length=76, required=False)
+# class StudentRegistration(ModelForm):
+#     # Extra Validation
+#     name = forms.CharField(max_length=76, required=False)
 
-    class Meta:
-        model = Employee
-        exclude = ['password']
-        # fields = ['name', 'email', 'password']
-        # fields = '__all__'
+#     class Meta:
+#         model = Employee
+#         exclude = ['password']
+#         # fields = ['name', 'email', 'password']
+#         # fields = '__all__'
 
 
 class TeacherRegistration(forms.ModelForm):

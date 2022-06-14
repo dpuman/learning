@@ -37,6 +37,11 @@ def home(request):
     # student_data = q2.union(q1)
     # student_data = q2.union(q1, all=True)
 
+    # q1 = Student.objects.all()
+    # q2 = Teacher.objects.all()
+    # student_data = q2.union(q1)
+    # student_data = q2.union(q1, all=True)
+
     # q1 = Student.objects.values('id', 'name')
     # q2 = Teacher.objects.values('id', 'name')
     # student_data = q2.intersection(q1)

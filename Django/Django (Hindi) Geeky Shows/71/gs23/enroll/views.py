@@ -28,6 +28,7 @@ def student(request):
         fr = NewStudentRegistration(request.POST)
         if fr.is_valid():
             fr.save()
+            messages.error(request, 'Error BRO')
     else:
         fr = NewStudentRegistration()
     return render(request, 'enroll/student.html', {'form': fr})

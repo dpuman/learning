@@ -8,10 +8,10 @@ from student.models import Student
 def home(request):
 
     #This is custom
-    # student_data = Student.student.get_stu_by_range(101, 105)
+    student_data = Student.student.get_stu_by_range(101, 105)
 
     # get_queryset() will work fine
-    student_data = Student.student.all()
+    # student_data = Student.student.all()
 
     context = {'students': student_data}
     return render(request, 'student/index.html', context)

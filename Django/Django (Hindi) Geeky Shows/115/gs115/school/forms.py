@@ -1,9 +1,9 @@
-from django import forms
+# from django import forms
 
-from school.models import Student
+# from school.models import Student
 
 
-class StudentForm(forms.ModelForm):
-    class Meta:
-        model = Student
-        fields = '__all__'
+# class StudentForm(forms.ModelForm):
+#     class Meta:
+#         model = Student
+#         fields = '__all__'

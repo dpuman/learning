@@ -7,8 +7,8 @@ from .models import Student
 
 def home(request):
 
-    # student_data = Student.objects.all()[:4]
-    # student_data = Student.objects.all()[2:5]
+    student_data = Student.objects.all()[:4]
+    student_data = Student.objects.all()[2:5]
     student_data = Student.objects.all()[::2]
 
     print('Result: ', student_data)

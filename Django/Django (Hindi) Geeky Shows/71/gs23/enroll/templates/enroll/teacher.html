@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teacher</title>
     <style>
-        .success{
-            color:green;
+        .success {
+            color: green;
         }
-        .alert-success{
-            color:green;
+
+        .alert-success {
+            color: green;
         }
     </style>
 </head>
@@ -25,12 +26,12 @@
     {% if messages %}
     {% for message in messages %}
     {% if message.tags %} {{message.tags}}{% endif %}
-    <span {% if message.tags %} class="alert-{{message.tags}}" {% endif %} >
+    <span {% if message.tags %} class="alert-{{message.tags}}" {% endif %}>
 
         {{message}}
     </span>
     <br>
-    
+
     {% endfor %}
     {% endif %}
 </body>

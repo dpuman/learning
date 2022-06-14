@@ -20,6 +20,7 @@ def register(request):
     #                          'email': 'my@example.com'})
 
     # fr = StudentRegistration(initial={'name': 'Dipankar'})
+
     fr = StudentRegistration(initial={'email': 'my@example.com'})
 
     return render(request, 'enroll/student-register.html', {'form': fr})

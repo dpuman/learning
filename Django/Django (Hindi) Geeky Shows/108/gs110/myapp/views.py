@@ -9,7 +9,7 @@ class ClassView(View):
     def get(self, request):
         return render(request, 'myapp/home.html')
 
-##########################################
+############### Inherite View ###########################
 
 
 class MyView(View):

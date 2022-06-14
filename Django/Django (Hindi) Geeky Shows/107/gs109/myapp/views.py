@@ -9,7 +9,6 @@ def home(request):
 
 
 def user(request):
-
     users1 = User.objects.filter(mypage__pageCat='War')
     users2 = User.objects.filter(post__post_title='Ukrain War')
     users3 = User.objects.filter(song__song_duration=20)

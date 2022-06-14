@@ -22,13 +22,19 @@ def register(request):
             passWord = fr.cleaned_data['password']
             comment = fr.cleaned_data['comments']
             print(id, name, email, passWord, comment)
+            # SAVE
             # rg = Student(stuId=id, stuName=name, stuEmail=email,
             #              stuPassword=passWord, comments=comment)
 
-            # rg = Student(id=4, stuId=id, stuName=name, stuEmail=email,
+            # rg.save()
+
+            # UPDATE
+            # rg = Student(id=5, stuId=id, stuName=name, stuEmail=email,
             #              stuPassword=passWord, comments=comment)
             # rg.save()
-            rg = Student(id=4)
+
+            # DELETE
+            rg = Student(id=5)
             rg.delete()
 
     else:

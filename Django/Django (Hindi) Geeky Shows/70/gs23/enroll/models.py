@@ -20,6 +20,8 @@ class Employee(models.Model):
     email = models.EmailField(max_length=70)
     password = models.CharField(max_length=100)
 
+# USING ONLY THIS
+
 
 class Teacher(models.Model):
     studentName = models.CharField(max_length=50)

@@ -9,8 +9,8 @@ from datetime import datetime, timedelta
 def setsession(request):
     request.session['name'] = 'Dipu'
     request.session['lname'] = 'Barman'
-    # request.session.set_expiry(600)
-    request.session.set_expiry(0)
+    request.session.set_expiry(600)
+    # request.session.set_expiry(0)
     return render(request, 'student/setsession.html')
 
 

@@ -20,7 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.CreateStudent.as_view(), name='form'),
     path('thankyou/', views.SuccessView.as_view(), name='thankyou'),
-    path('detail/<int:pk>', views.StudentDetailView.as_view(), name='detail'),
+    path('detail/<int:pk>', views.StudentDetailView.as_view(), name='details'),
 
 
 

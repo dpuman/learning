@@ -5,6 +5,10 @@ from .models import Student
 # Create your views here.
 
 
+class StudentList(ListView):
+    model = Student
+
+
 # class StudentDetailView(DetailView):
 #     model = Student
 
@@ -24,7 +28,3 @@ class StudentDetailView(DetailView):
         context = super().get_context_data(**kwargs)
         context['all_students'] = self.model.objects.all().order_by('name')
         return context
-
-
-class StudentList(ListView):
-    model = Student

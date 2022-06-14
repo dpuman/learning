@@ -18,4 +18,11 @@ def index(request):
 def register(request):
     fr = StudentRegistration(auto_id='my_%s', label_suffix=' :', initial={
                              'email': 'my@example.com'})
+
+    # fr = StudentRegistration(auto_id=True, label_suffix=' :', initial={
+    #                          'email': 'my@example.com'})
+
+    # fr = StudentRegistration(auto_id=False, label_suffix=' :', initial={
+    #                          'email': 'my@example.com'})
+
     return render(request, 'enroll/student-register.html', {'form': fr})

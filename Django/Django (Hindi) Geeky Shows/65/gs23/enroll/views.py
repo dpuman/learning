@@ -2,7 +2,7 @@ from xml.etree.ElementTree import Comment
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from .models import Student, employee
-from .forms import StudentRegistration
+from .forms import EmployeeRegistration
 # Create your views here.
 
 
@@ -13,10 +13,14 @@ def thankYou(request):
 
 def register(request):
     if request.method == 'POST':
-        em = employee.objects.get(id=1)
-        fr = StudentRegistration(request.POST, instance=em)
+
+        fr = EmployeeRegistration(request.POST)
+        # UPDATE
+        # em = employee.objects.get(id=1)
+        # fr = EmployeeRegistration(request.POST, instance=em)
 
         if fr.is_valid():
+            # UPDATE/SAVE
             fr.save()
 
             # name = fr.cleaned_data['name']
@@ -27,10 +31,12 @@ def register(request):
             # reg = employee(name=name, email=email, password=passWord)
             # reg = employee(id=1, name=name, email=email, password=passWord)
             # reg.save()
-            # reg = employee(id=2)
+
+            # DELETE
+            # reg = employee(id=3)
             # reg.delete()
 
     else:
-        fr = StudentRegistration()
+        fr = EmployeeRegistration()
 
     return render(request, 'enroll/student-register.html', {'form': fr})

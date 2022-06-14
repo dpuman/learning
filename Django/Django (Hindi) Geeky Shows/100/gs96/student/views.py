@@ -7,8 +7,8 @@ from django.db.models import Q
 
 def home(request):
 
-    # student_data = Student.objects.filter(Q(id=6) & Q(roll=106))
-    # student_data = Student.objects.filter(Q(id=6) | Q(roll=104))
+    student_data = Student.objects.filter(Q(id=6) & Q(roll=106))
+    student_data = Student.objects.filter(Q(id=6) | Q(roll=104))
     student_data = Student.objects.filter(~Q(id=6))
 
     print('Result: ', student_data)

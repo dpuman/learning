@@ -21,10 +21,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('cv/', views.ClassView.as_view()),
     path('mc/', views.MyContact.as_view()),
+
     path('mf/', views.mufunc,
          {'template': 'myapp/classtemplate.html'}, name='mf'),
     path('mf2/', views.mufunc,
          {'template': 'myapp/classtemplate2.html'}, name='mf'),
+
     path('ncv/', views.NewClassView.as_view(template='myapp/classtemplate.html'), name='ncv'),
     path('ncv2/', views.NewClassView.as_view(template='myapp/classtemplate2.html'), name='ncv'),
 
