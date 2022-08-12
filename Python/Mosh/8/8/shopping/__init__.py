@@ -1,0 +1,1 @@
+print("Salse from init")

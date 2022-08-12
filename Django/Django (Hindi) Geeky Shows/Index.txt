@@ -1,0 +1,515 @@
+
+
+Geeky Shows
+
+1
+What is Framework (Hindi)
+Geeky Shows
+
+2
+What is Web Framework (Hindi)
+Geeky Shows
+
+3
+What is Model View Template (Hindi)
+Geeky Shows
+
+4
+Visual Studio Code Crash Course (Hindi)
+Geeky Shows
+
+5
+Introduction to Django (Hindi)
+Geeky Shows
+
+6
+Requirements for Learning Django (Hindi)
+Geeky Shows
+
+7
+How to Install Django in Virtual Environment and Create Django Project (Hindi)
+Geeky Shows
+
+8
+How to Uninstall Django from Separate Environment (Hindi)
+Geeky Shows
+
+9
+How to Install Django Globally and Create Django Project (Hindi)
+Geeky Shows
+
+10
+Django Study Material Download Geeky Shows (Hindi)
+Geeky Shows
+
+11
+Django Project Directory Structure (Hindi)
+Geeky Shows
+
+12
+init wsgi and asgi Files in Django (Hindi)
+Geeky Shows
+
+13
+settings File in Django (Hindi)
+Geeky Shows
+
+14
+urls and manage File in Django (Hindi)
+Geeky Shows
+
+15
+How to Run and Stop Server in Django (Hindi)
+Geeky Shows
+
+16
+Problems and their Solutions While Learning Django (Hindi)
+Geeky Shows
+
+17
+How to Create and Install Application in Django (Hindi)
+Geeky Shows
+
+18
+Application Directory Structure in Django (Hindi)
+Geeky Shows
+
+19
+Setup Visual Studio Code for Django (Hindi)
+Geeky Shows
+
+20
+Create Function Based View in Django (Hindi)
+Geeky Shows
+
+21
+URL Dispatcher or URL Pattern inside Project in Django (Hindi)
+Geeky Shows
+
+22
+Multiple Application inside Project and their Function Based Views in Django (Hindi)
+Geeky Shows
+
+23
+URL Dispatcher or URL Pattern inside Application in Django (Hindi)
+Geeky Shows
+
+24
+Django 3.1 New Features and Deprecation (Hindi)
+Geeky Shows
+
+25
+Template and How to Render Template Files in Django (Hindi)
+Geeky Shows
+
+26
+Creating and Rendering Templates File For each Application Separately in Django (Hindi)
+Geeky Shows
+
+27
+Dynamic Template Files using DTL in Django (Hindi)
+Geeky Shows
+
+28
+Django Template Language Crash Course (Hindi)
+Geeky Shows
+
+29
+How to fix Emmet not working after Django Extension Installation in VS Code (Hindi)
+Geeky Shows
+
+30
+Templates inside Application in Django (Hindi)
+Geeky Shows
+
+31
+Static Files inside Project and How to use CSS JavaScript Images in Django (Hindi)
+Geeky Shows
+
+32
+Static Files inside Application and How to use CSS JavaScript Images in Django (Hindi)
+Geeky Shows
+
+33
+Template Inheritance in Django (Hindi)
+Geeky Shows
+
+34
+Template Inheritance with Static File in Django (Hindi)
+Geeky Shows
+
+35
+How to use Bootstrap and Font Awesome in Django (Hindi)
+Geeky Shows
+
+36
+How to Create Hyperlinks and Use url Tag in Django (Hindi)
+Geeky Shows
+
+37
+How to include template within template using include Tag in Django (Hindi)
+Geeky Shows
+
+38
+Django Resume Project from Development to Deployment and collectstatic in Django (Hindi)
+Geeky Shows
+
+39
+What is Cookie and How it works (Hindi)
+Geeky Shows
+
+40
+Object Relational Mapper and QuerySet in Django (Hindi)
+Geeky Shows
+
+41
+Model and How to Create Database Table in Django (Hindi)
+Geeky Shows
+
+42
+Show or Retrieve Database Table Data to User in Django (Hindi)
+Geeky Shows
+
+43
+Admin Application and How to Create Super User in Django (Hindi)
+Geeky Shows
+
+44
+How to Register Model Class and use __str__ method in Django (Hindi)
+Geeky Shows
+
+45
+ModelAdmin Class and How to register ModelAdmin Class in Django (Hindi)
+Geeky Shows
+
+46
+How to Create Django Form using Form API in Django (Hindi)
+Geeky Shows
+
+47
+Configure id Attribute and label Tag and Dynamic initial Value in Django (Hindi)
+Geeky Shows
+
+48
+Ordering Form Field in Django (Hindi)
+Geeky Shows
+
+49
+Render Form Fields Manually in Django (Hindi)
+Geeky Shows
+
+50
+Loop Form Fields and Form Hidden Fields in Django (Hindi)
+Geeky Shows
+
+51
+Form Field Argument in Django (Hindi)
+Geeky Shows
+
+52
+Form Widgets in Django (Hindi)
+Geeky Shows
+
+53
+Difference between GET and POST in Django (Hindi)
+Geeky Shows
+
+54
+What is Cross Site Request Forgery CSRF (Hindi)
+Geeky Shows
+
+55
+Create Form using Method POST and CSRF Token in Django (Hindi)
+Geeky Shows
+
+56
+How to Get Form Data and Validate Data in Django (Hindi)
+Geeky Shows
+
+57
+HttpResponseRedirect in Django (Hindi)
+Geeky Shows
+
+58
+Form Field Type CharField BooleanField IntegerField DecimalField SlugField etc in Django (Hindi)
+Geeky Shows
+
+59
+Cleaning and Validating Specific Form Field in Django (Hindi)
+Geeky Shows
+
+60
+Validating Complete Django Form at Once in Django (Hindi)
+Geeky Shows
+
+61
+Built in Validators and Custom Validators in Django (Hindi)
+Geeky Shows
+
+62
+Match Password and Re Enter Password Field in Django (Hindi)
+Geeky Shows
+
+63
+Styling Django Form Errors and Field Error in Django (Hindi)
+Geeky Shows
+
+64
+Save Update and Delete Form Data to/from Database in Django (Hindi)
+Geeky Shows
+
+65
+ModelForm in Django (Hindi)
+Geeky Shows
+
+66
+Dynamic URL in Django (Hindi)
+Geeky Shows
+
+67
+Custom Path Converters in Django (Hindi)
+Geeky Shows
+
+68
+CRUD Project Function Based View with Model Form in Django (Hindi)
+Geeky Shows
+
+69
+Selecting ModelForm Fields in Django (Hindi)
+Geeky Shows
+
+70
+Model Form Inheritance in Django (Hindi)
+Geeky Shows
+
+71
+Messages Framework in Django (Hindi)
+Geeky Shows
+
+72
+What is Authentication and Authorization (Hindi)
+Geeky Shows
+
+73
+User Authentication System using Django Admin Application in Django (Hindi)
+Geeky Shows
+
+74
+Create Registration Form using UserCreationForm in Django (Hindi)
+Geeky Shows
+
+75
+Create Login Form using AuthenticationForm and Profile Page and Logout in Django (Hindi)
+Geeky Shows
+
+76
+Change Password with Old Password and without Old Password in Django (Hindi)
+Geeky Shows
+
+77
+Profile using UserChangeForm in Django (Hindi)
+Geeky Shows
+
+78
+User Profile and Admin Profile in Django (Hindi)
+Geeky Shows
+
+79
+Permission and Authorization in Django (Hindi)
+Geeky Shows
+
+80
+Django Mini Blog Project (Hindi)
+Geeky Shows
+
+81
+Cookies in Django (Hindi)
+Geeky Shows
+
+82
+Session Framework in Django (Hindi)
+Geeky Shows
+
+83
+Page Session Expired in 20 Seconds in Django (Hindi)
+Geeky Shows
+
+84
+File Based Session in Django (Hindi)
+Geeky Shows
+
+85
+Page Counter Project in Django (Hindi)
+Geeky Shows
+
+86
+What is Cache and The per site Cache in Django (Hindi)
+Geeky Shows
+
+87
+The Per View Caching in Django (Hindi)
+Geeky Shows
+
+88
+Template Fragment Caching in Django (Hindi)
+Geeky Shows
+
+89
+Low Level Cache API in Django (Hindi)
+Geeky Shows
+
+90
+Signals and Built in Signals in Django (Hindi)
+Geeky Shows
+
+91
+Track Client IP Django Project (Hindi)
+Geeky Shows
+
+92
+User Login Count Django Project Hindi
+Geeky Shows
+
+93
+Custom Signals in Django (Hindi)
+Geeky Shows
+
+94
+Middleware in Django (Hindi)
+Geeky Shows
+
+95
+Site Under Construction Django Project (Hindi)
+Geeky Shows
+
+96
+QuerySet API Methods that return new QuerySets in Django (Hindi)
+Geeky Shows
+
+97
+QuerySet API Methods that do not return new QuerySets in Django (Hindi)
+Geeky Shows
+
+98
+QuerySet API Field Lookups in Django (Hindi)
+Geeky Shows
+
+99
+QuerySet API Aggregation in Django (Hindi)
+Geeky Shows
+
+100
+Q Objects in Django (Hindi)
+Geeky Shows
+
+101
+Limiting QuerySet in Django (Hindi)
+Geeky Shows
+
+102
+Model Inheritance Abstract Base Class MultiTable Inheritance Proxy Model in Django (Hindi)
+Geeky Shows
+
+103
+Model Manager in Django (Hindi)
+Geeky Shows
+
+104
+Model Relationship and One to One Relationship in Django (Hindi)
+Geeky Shows
+
+105
+Many to One Relationship in Django (Hindi)
+Geeky Shows
+
+106
+Many to Many Relationship in Django (Hindi)
+Geeky Shows
+
+107
+Model Relationship Example and related_name Parameter in Django (Hindi)
+Geeky Shows
+
+108
+View Class Based Base View or View Base Class in Django (Hindi)
+Geeky Shows
+
+109
+TemplateView in Django (Hindi)
+Geeky Shows
+
+110
+RedirectView in Django (Hindi)
+Geeky Shows
+
+111
+CRUD Project Base Class Based View with Model Form in Django (Hindi)
+Geeky Shows
+
+112
+Generic Class Based View and ListView in Django (Hindi)
+Geeky Shows
+
+113
+DetailView in Django (Hindi)
+Geeky Shows
+
+114
+FormView in Django (Hindi)
+Geeky Shows
+
+115
+CreateView in Django (Hindi)
+Geeky Shows
+
+116
+UpdateView in Django (Hindi)
+Geeky Shows
+
+117
+DeleteView in Django (Hindi)
+Geeky Shows
+
+118
+How to Use Authentication Views with Function Based View in Django (Hindi)
+Geeky Shows
+
+119
+Function Based View with login_required and staff_member_required Decorators in Django (Hindi)
+Geeky Shows
+
+120
+How to use Authentication Views with Class Based View in Django (Hindi)
+Geeky Shows
+
+121
+Class Based View with login required and staff member required Decorators in Django (Hindi)
+Geeky Shows
+
+122
+Customize Authentication View in Django (Hindi)
+Geeky Shows
+
+123
+Authentication Settings in Django (Hindi)
+Geeky Shows
+
+124
+Database Configurations in Django (Hindi)
+Geeky Shows
+
+125
+Pagination with Function Based View in Django (Hindi)
+Geeky Shows
+
+126
+Pagination with Class Based View in Django (Hindi)
+Geeky Shows
+
+127
+Django Security (Hindi)
+Geeky Shows
+
+128
+Django Completed Now What Next (Hindi)
+Geeky Shows
