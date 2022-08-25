@@ -1,0 +1,6 @@
+array = np.zeros((3, 4), dtype=int)
+print(array)
+array = np.ones((3, 4), dtype=int)
+print(array)
+array = np.full((3, 4), 5, dtype=int)
+print(array)

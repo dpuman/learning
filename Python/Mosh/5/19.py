@@ -9,5 +9,5 @@ print(num | num2)
 print(num & num2)
 # Diffenent
 print(num-num2)
-# Unique in both
+# Unique from both
 print(num ^ num2)
