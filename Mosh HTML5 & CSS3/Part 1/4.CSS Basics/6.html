@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo class</title>
+    <style>
+      article :first-child {
+        color: red;
+        border: 1px solid black;
+      }
+      article p:first-of-type {
+        color: yellow;
+      }
+      article p:last-of-type {
+        color: green;
+      }
+      article :last-child {
+        color: gray;
+      }
+      ul :nth-child(even) {
+        color: green;
+      }
+      ul :nth-child(odd) {
+        color: blue;
+      }
+      ol :nth-child(3n) {
+        color: greenyellow;
+      }
+      .google:visited,
+      .google:link {
+        color: red;
+      }
+      .google:focus,
+      .google:hover {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <h2>Heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eveniet.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
+        voluptate?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
+        voluptate?
+      </p>
+      <a href="#">Link</a>
+    </article>
+
+    <ul>
+      <li>item-1</li>
+      <li>item-2</li>
+      <li>item-3</li>
+      <li>item-4</li>
+    </ul>
+    <ol>
+      <li>item-1</li>
+      <li>item-2</li>
+      <li>item-3</li>
+      <li>item-4</li>
+    </ol>
+
+    <a class="google" href="https://google.com">Google</a>
+  </body>
+</html>

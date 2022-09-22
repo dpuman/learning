@@ -16,7 +16,9 @@ class StudentModelViewSet(viewsets.ModelViewSet):
 
 # Generete token from API End cmd
 # http POST http://127.0.0.1:8000/gettoken/ username="user1" password="dipankar"
+
 # http POST http://127.0.0.1:8000/verifytoken/ token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ5MjE5OTUwLCJpYXQiOjE2NDkyMTg0NTAsImp0aSI6IjU1NTg2NmVmMGY4NzQ1MjY4ZGI3MWViYjgzYTlmMDUyIiwidXNlcl9pZCI6Mn0.3Elvmyv-7zsGLOQbWlvvJ4YuOY8zZcDpAlFQViw12vw"
+
 # http POST http://127.0.0.1:8000/refreshtoken/ refresh="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY0OTMwNDg1MCwiaWF0IjoxNjQ5MjE4NDUwLCJqdGkiOiJmNzFjNWNhNDQ5ZmQ0OTdhOWMyZGNhOTk1NDYzZDNlMSIsInVzZXJfaWQiOjJ9.0hCflx2TsNcFfr45qjZcGo1JNiUDef19R9pUdt6yTtI"
 
 # REQUESTS USING TOKEN BY HTTPIE CMD

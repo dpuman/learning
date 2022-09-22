@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+    <style>
+      p {
+        color: red;
+        /* color: red !important; */
+      }
+      .para {
+        color: green;
+      }
+      #my-para {
+        color: blue;
+      }
+      .para#my-para {
+        color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <p id="my-para" class="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, id.
+      </p>
+    </article>
+  </body>
+</html>

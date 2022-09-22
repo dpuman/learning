@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(green, red);
+        background: linear-gradient(to right, green, red);
+        background: linear-gradient(to bottom right, green, red);
+        background: linear-gradient(45deg, green, red);
+        background: linear-gradient(45deg, green, red 30%);
+        background: linear-gradient(45deg, green, red 30%, blue);
+      }
+      .circle {
+        width: 400px;
+        height: 200px;
+        background: radial-gradient(red, green);
+        background: radial-gradient(circle, red, green);
+        background: radial-gradient(circle at top left, red, green);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="circle"></div>
+  </body>
+</html>

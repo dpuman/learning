@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relational Selector</title>
+    <style>
+      #product p {
+        color: red;
+      }
+      #product > p {
+        color: green;
+      }
+      #product + p {
+        color: blue;
+      }
+      #product ~ p {
+        color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <selector id="product">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+        veniam?
+      </p>
+      <article>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </article>
+    </selector>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </body>
+</html>

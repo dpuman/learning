@@ -15,11 +15,13 @@ def student_api(request):
     if request.method == 'GET':
         json_data = request.body
         stream_data = io.BytesIO(json_data)
+        # converts to py data
         parsed_data = JSONParser().parse(stream_data)
         id = parsed_data.get('id', None)
         if id is not None:
             student = Student.objects.get(pk=id)
             student_serializer = StudentSerializer(student)
+            # converts to json data
             student_json = JSONRenderer().render(student_serializer.data)
             print(student_json)
             return HttpResponse(student_json, content_type='application/json')
@@ -29,6 +31,7 @@ def student_api(request):
         return HttpResponse(json_data, content_type='application/json')
 
     if request.method == 'POST':
+        # de-serialize
         json_data = request.body
 
         stream_data = io.BytesIO(json_data)

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <style>
+      .container {
+        border: 3px solid lightblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        height: 90vh;
+      }
+      /* .container {
+        border: 3px solid lightblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+
+        height: 90vh;
+      } */
+      /* .container {
+        border: 3px solid lightblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        height: 90vh;
+        /* align-items: flex-end; */
+      /* justify-content: space-between; */
+      /* justify-content: flex-end;
+        justify-content: start; */
+      /* } */
+      /* .container {
+        border: 3px solid lightblue;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-direction: row;
+        flex-direction: row-reverse;
+      } */
+
+      .box {
+        flex-basis: 10rem;
+        /* flex-grow: 1; */
+        flex-shrink: 1;
+        /* flex:1 1 15rem' */
+        height: 5rem;
+        background-color: gold;
+        margin: 1rem;
+      }
+      /* .box {
+        width: 10rem;
+        height: 5rem;
+        background-color: gold;
+        margin: 1rem;
+      } */
+      .box-one {
+        /* flex-basis: 5rem; */
+        /* flex-grow: 2; */
+        flex-shrink: 0;
+      }
+      /* .box-one {
+        align-self: flex-start;
+        align-self: flex-end;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box-one">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+      <!-- <div class="box">D</div>
+      <div class="box">E</div>
+      <div class="box">F</div>
+      <div class="box">G</div>
+      <div class="box">G</div>
+      <div class="box">I</div>
+      <div class="box">J</div> -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/11/11.iml" filepath="$PROJECT_DIR$/11/11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5/5.iml" filepath="$PROJECT_DIR$/5/5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6/6.iml" filepath="$PROJECT_DIR$/6/6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7/7.iml" filepath="$PROJECT_DIR$/7/7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/Abstractions/Abstractions.iml" filepath="$PROJECT_DIR$/2/Abstractions/Abstractions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CodeWithMosh - The Ultimate Design Patterns.iml" filepath="$PROJECT_DIR$/.idea/CodeWithMosh - The Ultimate Design Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/classes/classes.iml" filepath="$PROJECT_DIR$/2/classes/classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8/commandPattern/commandPattern.iml" filepath="$PROJECT_DIR$/8/commandPattern/commandPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8/compositeCommand/compositeCommand.iml" filepath="$PROJECT_DIR$/8/compositeCommand/compositeCommand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/encaptulationses/encaptulationses.iml" filepath="$PROJECT_DIR$/2/encaptulationses/encaptulationses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/inheritances/inheritances.iml" filepath="$PROJECT_DIR$/2/inheritances/inheritances.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/2/interfaces/interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10/mediatorPattern/mediatorPattern.iml" filepath="$PROJECT_DIR$/10/mediatorPattern/mediatorPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3/memento/memento.iml" filepath="$PROJECT_DIR$/3/memento/memento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10/objerverPattern/objerverPattern.iml" filepath="$PROJECT_DIR$/10/objerverPattern/objerverPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9/observePattern/observePattern.iml" filepath="$PROJECT_DIR$/9/observePattern/observePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2/polymorphisms/polymorphisms.iml" filepath="$PROJECT_DIR$/2/polymorphisms/polymorphisms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9/pullStyle/pullStyle.iml" filepath="$PROJECT_DIR$/9/pullStyle/pullStyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9/pushStyle/pushStyle.iml" filepath="$PROJECT_DIR$/9/pushStyle/pushStyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3/statePattern/statePattern.iml" filepath="$PROJECT_DIR$/3/statePattern/statePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8/undoCommand/undoCommand.iml" filepath="$PROJECT_DIR$/8/undoCommand/undoCommand.iml" />
+    </modules>
+  </component>
+</project>

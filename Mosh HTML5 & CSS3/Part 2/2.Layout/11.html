@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media query</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      .box {
+        background: gold;
+        padding: 1rem;
+      }
+      .box:nth-of-type(odd) {
+        background: blueviolet;
+      }
+      @media screen and (min-width: 600px) {
+        .container {
+          flex-direction: row;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        .box {
+          background-color: aqua;
+        }
+      }
+
+      @media print {
+        body {
+          font-size: 12pt;
+        }
+        .box {
+          padding: 0.5cm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          odit excepturi ullam quibusdam tenetur quidem, autem, modi, et vero
+          quaerat dolorum? Obcaecati, voluptas non, voluptatem voluptates
+          explicabo illo quae nulla delectus nihil distinctio autem. Ipsam
+          porro, consectetur tempora minima quo error nulla nihil molestiae
+          pariatur tenetur sapiente vel? Nesciunt, numquam?
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          odit excepturi ullam quibusdam tenetur quidem, autem, modi, et vero
+          quaerat dolorum? Obcaecati, voluptas non, voluptatem voluptates
+          explicabo illo quae nulla delectus nihil distinctio autem. Ipsam
+          porro, consectetur tempora minima quo error nulla nihil molestiae
+          pariatur tenetur sapiente vel? Nesciunt, numquam?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
