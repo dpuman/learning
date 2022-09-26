@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Sprites</title>
+    <style>
+      .bg-rocket {
+        background: url("css-sprite-combined.png") 0px -0px;
+        width: 512px;
+        height: 512px;
+        display: inline-block;
+      }
+
+      .bg-plane {
+        background: url("css-sprite-combined.png") -512px -0px;
+        width: 512px;
+        height: 512px;
+        display: inline-block;
+      }
+
+      .bg-satellite-dish {
+        background: url("css-sprite-combined.png") -1024px -0px;
+        width: 512px;
+        height: 512px;
+        display: inline-block;
+      }
+
+      .bg-ufo {
+        background: url("css-sprite-combined.png") -1536px -0px;
+        width: 512px;
+        height: 512px;
+        display: inline-block;
+      }
+
+      .bg-saturn {
+        background: url("css-sprite-combined.png") -2048px -0px;
+        width: 512px;
+        height: 512px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./plane.png" alt="" />
+    <img src="./rocket.png" alt="" />
+    <img src="./satellite-dish.png" alt="" />
+    <img src="./saturn.png" alt="" />
+    <img src="./ufo.png" alt="" />
+
+    <span class="bg-saturn"></span>
+    <span class="bg-ufo"></span>
+    <span class="bg-satellite-dish"></span>
+    <span class="bg-plane"></span>
+    <span class="bg-rocket"></span>
+  </body>
+</html>
