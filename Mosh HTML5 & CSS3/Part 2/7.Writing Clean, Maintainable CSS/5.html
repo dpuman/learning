@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM - Block Element Modifier</title>
+  </head>
+  <body>
+    <h1>
+      Thinking our web page as a bunch of blocks or components or modules, these
+      blocks can contain elements and can be modified
+    </h1>
+    <ol>
+      <li>Class: 'my__name' - separate block from element</li>
+      <li>Class: "cart--popular" - separate block from modifier</li>
+    </ol>
+    <hr />
+    <div class="card card--popular">
+      <header class="card__header">
+        <span class="card__price"></span>
+      </header>
+      <div class="card__body">
+        <button class="btn">submit</button>
+      </div>
+    </div>
+  </body>
+</html>

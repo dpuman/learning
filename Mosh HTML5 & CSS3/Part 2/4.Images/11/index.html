@@ -10,9 +10,11 @@
     <img src="./meal.jpg" alt="" />
     <img src="./meal.webp" alt="" />
     <h1>Using picture element</h1>
+    <!-- from these image only one will be selected -->
     <picture>
       <source srcset="./meal.webp" type="image/webp" />
       <source srcset="./meal.jpg" type="image/jpg" />
+      <!-- source support na korle -->
       <img src="./meal.jpg" alt="my meal" />
     </picture>
   </body>

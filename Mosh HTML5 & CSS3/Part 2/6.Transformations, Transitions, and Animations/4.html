@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: gold;
+        transition: transform 0.5s linear;
+        transition: transform 0.5s ease-in;
+        transition: transform 0.5s ease-out;
+        transition: transform 0.5s cubic-bezier(0, 0.79, 1, 0.17);
+      }
+      .box:hover {
+        transform: rotate(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum
+      autem dolores consectetur aspernatur commodi, quidem laudantium excepturi
+      rerum quis.
+    </div>
+  </body>
+</html>

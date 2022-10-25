@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+    <style>
+      :root {
+        --color-primary: tomato;
+        --border-size: 2px;
+        --border-radius: 10px;
+      }
+      .one {
+        background: var(--color-primary);
+      }
+      .two {
+        background-color: var(--color-primary);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">ONE</div>
+    <div class="two">Two</div>
+  </body>
+</html>

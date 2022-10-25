@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: gold;
+        animation-name: pop;
+        animation-duration: 4s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-direction: alternate;
+
+        animation: pop 4s ease-in;
+      }
+      @keyframes pop {
+        0% {
+          transform: scale(1.5);
+        }
+        25% {
+          transform: rotate(45deg);
+        }
+        50% {
+          background-color: aqua;
+        }
+        100% {
+          transform: rotate(0deg);
+          transform: scale(0.5);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum
+      autem dolores consectetur aspernatur commodi, quidem laudantium excepturi
+      rerum quis.
+    </div>
+  </body>
+</html>
